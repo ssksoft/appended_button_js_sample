@@ -5,7 +5,7 @@
 <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
 
 <script>
-  $('button').on('click',function(){
+  $('.buttons-area').on('click','button',function(){
     // 後から追加されたボタンには効かないイベント
     $('.buttons-area').append('<button>追加されたボタン</button>');
   });
